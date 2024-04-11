@@ -21,6 +21,7 @@ function freezeFood(food, callback) {
     callback(freezedFood);
   }, 1500);
 }
+
 orderFood((food) => {
   console.log(food);
 

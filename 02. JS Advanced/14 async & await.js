@@ -22,10 +22,4 @@ async function printData() {
   console.log(data);
 }
 
-function printData(result) {
-  getData().then((result) => {
-    console.log(data);
-  });
-}
-
 printData();
