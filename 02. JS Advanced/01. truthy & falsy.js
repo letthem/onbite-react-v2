@@ -24,5 +24,5 @@ function printName(person) {
   console.log(person.name);
 }
 
-let person = { name: "이정환" };
+let person = { name: "심수연" };
 printName(person);

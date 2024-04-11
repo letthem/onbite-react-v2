@@ -6,4 +6,4 @@ function printName(person) {
 }
 
 printName();
-printName({ name: "이정환" });
+printName({ name: "심수연" });

@@ -5,9 +5,9 @@ let [one, two, three, four = 4] = arr;
 
 // 2. 객체의 구조 분해 할당
 let person = {
-  name: "이정환",
-  age: 27,
-  hobby: "테니스",
+  name: "심수연",
+  age: 23,
+  hobby: "노래부르기",
 };
 
 let { age: myAge, hobby, name, extra = "hello" } = person;

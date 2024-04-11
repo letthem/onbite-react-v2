@@ -18,9 +18,9 @@ for (let item of arr) {
 
 // 2. 객체 순회
 let person = {
-  name: "이정환",
-  age: 27,
-  hobby: "테니스",
+  name: "심수연",
+  age: 23,
+  hobby: "노래부르기",
 };
 
 // 2.1 Object.keys 사용
