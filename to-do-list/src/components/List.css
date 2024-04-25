@@ -4,6 +4,9 @@
   gap: 20px;
 }
 
+.List > h4 {
+  margin-bottom: 0;
+}
 .List > input {
   width: 100%;
   border: none;
