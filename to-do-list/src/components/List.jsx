@@ -1,10 +1,10 @@
 import { useState, useMemo, useContext } from "react";
 import "./List.css";
 import TodoItem from "./TodoItem";
-import { TodoContext } from "../App";
+import { TodoStateContext } from "../App";
 
 const List = () => {
-  const { todos } = useContext(TodoContext);
+  const todos = useContext(TodoStateContext); // todos는 하나만 넘어옴! 객체가 아닌 배열로 생각. 구조분해할당 X
   const [search, setSearch] = useState("");
 
   const onChangeSearch = (e) => {
