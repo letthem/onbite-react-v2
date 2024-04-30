@@ -1,7 +1,9 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useContext } from "react";
 import "./Editor.css";
+import { TodoContext } from "../App";
 
-const Editor = ({ onCreate }) => {
+const Editor = () => {
+  const { onCreate } = useContext(TodoContext);
   const [content, setContent] = useState("");
   const contentRef = useRef();
 
@@ -19,7 +21,8 @@ const Editor = ({ onCreate }) => {
   };
 
   const onKeydown = (e) => {
-    if (e.keyCode === 13) { // enter 누를 시 제출
+    if (e.keyCode === 13) {
+      // enter 누를 시 제출
       onSubmit();
     }
   };
