@@ -33,6 +33,7 @@ const List = ({ todos, onUpdate, onDelete }) => {
         notDoneCount,
       };
     };
+    return getAnalyzedData();
   }, [todos]);
   // 의존성배열 : deps
 
